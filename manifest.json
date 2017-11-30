@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "BookMark",
+  "description": "Who want to use hou bookmark",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
