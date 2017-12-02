@@ -12,9 +12,15 @@ chrome.tabs.executeScript({
   //위의 코드가 실행된 후에 이 함수를 호출해주세요. 그 때,
   // result란 변수에 결과값을 담아주세요.
   // alert(result[0]);
-  alert(result[0]);
-  // var bodyText = result[0];
+  // alert(result[0]);
+  var bodyText = result[0];
   // var bodyNum = bodyText.split('').length;
   // var myNum = bodyText.match(new RegExp('\\b(the|is|was|of)\\b', 'gi').length;
   // alert(myNum + '/' + bodyNum + '(' + (myNum / bodyNum * 100) + '%)');
+
+  //id값이 result인 태그에 결과를 추가한다.
+  document.querySelector('#result').innerText = bodyText
+
+
+
 });
