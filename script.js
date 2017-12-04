@@ -3,6 +3,9 @@
  // document.querySelector('body').innerText;
  // alert(bodyText);
 
+
+
+
 // chrome 확장기능 중에 tabs과 관련된 기능 중에
 // 컨텐츠 페이지를 대상으로 아래와 가은 코드를 실행한다.
 
@@ -16,6 +19,13 @@ chrome.tabs.executeScript({
   var bodyText = result[0];
       //id값이 result인 태그에 결과를 추가한다.
   document.querySelector('#result').innerText = bodyText
+
+
+
+
+
+
+
 
 
   // //2. 수업 따라가기
